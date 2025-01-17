@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: pink;
+}
+
+@media only screen and (min-width: 375px){
+  .welcome-background{
+    background-image: url("https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/472583473_2873877886110781_930208273667523945_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEUIPi-PpxRQqDIeAXZVsnE983EkeamtbX3zcSR5qa1tSdeEDbE9e3ruchx5yHd8B3b2YFStRFEm2Ij8ibczchy&_nc_ohc=qCdmxxTfzlEQ7kNvgECDq3f&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&oh=03_Q7cD1gHm9YHhTHPEIpzU332Tzcpi5vNvYGQsffhPGxHa0SPGrw&oe=67B1B842");
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(40%);
+    background-attachment: fixed;
+  }
+
+  .welcome h1{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Playwrite IN", serif;
+    font-size: 30px;
+  }
+
+  .vintage-background{
+    background-image: url("https://scontent.fmnl25-6.fna.fbcdn.net/v/t1.15752-9/473173788_1125725505896066_6906669574744533887_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEzKI3AZKr0_R0u5sp4r3jKZcijJbmnc3VlyKMluadzdWrjz0RITeNfHAl0hhDWN3TwF2PuKijJi8bVpUtqaG-A&_nc_ohc=wVdz9jzH3RgQ7kNvgHM8WQG&_nc_zt=23&_nc_ht=scontent.fmnl25-6.fna&oh=03_Q7cD1gGj4yrIR5WqVZHwC4Wg010P7eXHsI4bjNTVt2LUTjm90g&oe=67B1BDA9");
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(40%);
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .vintage h1{
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Playwrite IN", serif;
+    font-size: 20px;
+  }
+
+  #kiss-label{
+    font-family: "Poppins", serif;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 30px;
+  } 
+
+  video{
+    margin: 10px;
+    height: 400px;
+  }
+
+  button{
+    margin-bottom: 50px;
+    padding: 20px 50px;
+    background-color: lightpink;
+    border: 1px solid black;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    font-size: 25px;
+  }
+}

@@ -15,6 +15,7 @@ body{
     height: 100vh;
     filter: brightness(40%);
     background-attachment: fixed;
+    object-fit: cover;
   }
 
   .welcome h1{
@@ -35,6 +36,7 @@ body{
     filter: brightness(40%);
     background-attachment: fixed;
     background-position: center;
+    object-fit: cover;
   }
 
   .vintage h1{

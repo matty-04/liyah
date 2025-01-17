@@ -13,9 +13,10 @@ body{
     background-image: url("https://scontent.fmnl25-1.fna.fbcdn.net/v/t1.15752-9/472583473_2873877886110781_930208273667523945_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEUIPi-PpxRQqDIeAXZVsnE983EkeamtbX3zcSR5qa1tSdeEDbE9e3ruchx5yHd8B3b2YFStRFEm2Ij8ibczchy&_nc_ohc=qCdmxxTfzlEQ7kNvgECDq3f&_nc_zt=23&_nc_ht=scontent.fmnl25-1.fna&oh=03_Q7cD1gHm9YHhTHPEIpzU332Tzcpi5vNvYGQsffhPGxHa0SPGrw&oe=67B1B842");
     background-size: cover;
     height: 100vh;
-    filter: brightness(40%);
-    background-attachment: fixed;
     object-fit: cover;
+    filter: brightness(40%);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
   }
 
   .welcome h1{
@@ -34,9 +35,8 @@ body{
     background-size: cover;
     height: 100vh;
     filter: brightness(40%);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
-    object-fit: cover;
   }
 
   .vintage h1{
